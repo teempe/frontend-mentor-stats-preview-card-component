@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Frontend Mentor | Stats preview card component</title>
+    </head>
+    <body>
+
+        <main>
+            <article class="card">
+                <picture class="card-hero">
+                    <source media="(min-width: 1024px)" srcset="./images/image-header-desktop.jpg">
+                    <img src="./images/image-header-mobile.jpg" alt="">
+                    <div class="overlay"></div>
+                </picture>
+                
+                <div class="card-content">
+                    <h2 class="card-title">Get <strong>insights</strong> that help your business grow.</h2>
+                    
+                    <p class="card-text">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+                        experience, and overall efficiency.</p>
+                    
+                    <div class="stats-container">
+                        <div class="stats-item">
+                            <p class="stat-value">10k+</p> 
+                            <p class="stat-title">companies</p>
+                        </div>
+                        <div class="stat-item">
+                            <p class="stat-value">314</p> 
+                            <p class="stat-title">templates</p>
+                        </div>
+                        <div class="stat-item">
+                            <p class="stat-value">12M+</p> 
+                            <p class="stat-title">queries</p>
+                        </div>
+                    </div>  
+                </div>
+            </article>
+        </main>
+
+        <footer class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="https://github.com/teempe">teempe</a>.
+        </footer>
+    </body>
+</html>
